@@ -36,6 +36,7 @@ const Canvas = observer(() => {
     const {toast} = useToast()
     const [open, setOpen] = useState(true)
     const [alreadyOpen, setAlreadyOpen] = useState(false)
+    let couner = 0
     const descriptions = [
         'Хорошей ему игры!',
         'Присоединяйся к нам!',
